@@ -19,7 +19,7 @@ pipeline {
 
         stage("Git Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/Mahesh-ai-ux/amazon-Devsecops-main.git'
+                git branch: 'master', url: 'https://github.com/Mahesh-ai-ux/amazon-Devsecops-main.git'
             }
         }
 
