@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: amazon-app-container
-          image: harishnshetty/amazon:latest
+          image: mahesh9030/amazon:latest
           ports:
             - containerPort: 80
           resources:
